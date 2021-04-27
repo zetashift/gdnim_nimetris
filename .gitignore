@@ -1,0 +1,15 @@
+/app/.import
+/app/_dlls
+/deps/godotapi
+/logs
+nimcache
+.nimcache
+*.exe
+*.pdb
+.idea
+.nimcache
+nim.cfg
+*.inibuild
+build
+app/export_presets.cfg
+*.ini
