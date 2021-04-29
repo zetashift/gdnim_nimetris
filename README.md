@@ -19,16 +19,16 @@ For building and playing around, you will need to have the following installed:
 │   ├── assets
 │   ├── _dlls
 │   ├── _gdnlib
-│   ├── _gdns
-│   └── _tscn
+│   ├── scripts
+│   └── scenes
 ├── components
 ├── deps
 └── gdnim
 
 ```
 - `build.ini` contains all the GDNim specific settings. You will need to change the settings under the `[Godot]` header to match your own configuration. Besides this you can take a look and see what's going on.
-- `app` houses the actual Godot project, so scenes and assets will be put here.
-- `components`, here all my Nim code will reside.
+- `app` houses the actual Godot project, so scenes and assets will be put here. Also generated scripts by GDNative also are put here.
+- `src`, here all my Nim code will reside.
 - `deps`, dependencies of `GDNim`, you can safely ignore this if you just want to use `GDNim`.
 - `gdnim` contains all the `GDNim` specific code. For _actually_ making a game you also can ignore this.
 
